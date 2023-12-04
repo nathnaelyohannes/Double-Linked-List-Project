@@ -6,7 +6,7 @@ import java.util.Comparator;
 public class BasicDoubleLinkedList<T> implements Iterable<T> {
 
     protected class Node {
-    	
+	    
         T data;
         Node prev;
         Node next;
